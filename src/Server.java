@@ -9,6 +9,7 @@ import java.net.Socket;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+@SuppressWarnings({"unchecked", "InfiniteLoopStatement"})
 public class Server {
     public static void main(String[] arg) {
         System.out.print("\033[H\033[2J");
@@ -70,6 +71,8 @@ public class Server {
                                     writer.flush();
                                     connection.shutdownOutput();
                                 }
+                                    break;
+                                case "census":
                                     break;
                             }
                         }
