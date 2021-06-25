@@ -51,7 +51,7 @@ public class Server {
                                         }
                                             break;
                                         case 1: {
-                                            System.out.println("login succeed");
+                                            System.out.println("login succeed.");
                                         }
                                             break;
                                         case 2: {
