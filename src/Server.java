@@ -72,7 +72,9 @@ public class Server {
                                     connection.shutdownOutput();
                                 }
                                     break;
-                                case "census":
+                                case "census": {
+                                    //TODO: get data from RPi;
+                                }
                                     break;
                             }
                         }
