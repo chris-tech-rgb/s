@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="s:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/s_jar</output-path>
+    <root id="archive" name="s.jar">
+      <element id="module-output" name="s" />
+      <element id="extracted-dir" path="/lib/json-simple/json-simple-1.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/postgresql-42.2.22.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
